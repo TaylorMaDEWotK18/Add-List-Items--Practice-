@@ -18,6 +18,12 @@ h1 {
     color:rgb(216, 43, 43);
     margin-top: 50px;
 }
+form {
+    margin-top: 25px;
+}
+form input {
+    width: 400px;;
+}
 
 
 /*Step 6-Copied over CSS portion in google font make up and set margin, padding and box-sizing
