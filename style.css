@@ -1,0 +1,23 @@
+* {
+    font-family: 'Changa One', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Step 6-Copied over CSS portion in google font make up and set margin, padding and box-sizing
+
+Step 7-Set up flex directing in the body and centered it to make it look fanstastic 
+
+Step 8-Styled h1 and gave it top margin and then took on the form and gave it margin top space, background color and box shadown!
+
+Step 9-Styled to form input, increased the width size, height, took off the border and that annoting outline and gave mild padding
+
+Step 10-Styled form button and completely made it fit to the search bar, adjusted background color and color of plus symbol. Also gave it the awesome pointer when you hover over it
+
+Step 12-Styled container class, ul, ul li, li span
+
+Step 21-Add styling to ul li object and add transition = 0.2s linear to create ghosting effect when you click out of it
