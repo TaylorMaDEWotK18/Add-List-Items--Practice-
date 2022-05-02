@@ -38,6 +38,17 @@ form button {
     border-radius: 3%;
     cursor: pointer;
 }
+.container {
+   margin-top: 50px; 
+}
+ul {
+    list-style: none;
+    width: 500px;
+}
+ul li {
+    width: 100%;
+}
+
 
 /*Step 6-Copied over CSS portion in google font make up and set margin, padding and box-sizing
 
@@ -49,6 +60,6 @@ Step 9-Styled to form input, increased the width size, height, took off the bord
 
 Step 10-Styled form button and completely made it fit to the search bar, adjusted background color and color of plus symbol. Also gave it the awesome pointer when you hover over it
 
-Step 12-Styled container class, ul, ul li, li span
+Step 12-Styled container class(margin-top), ul(list-style,width), ul li((width: 100%; background: #fff; height: 40px; line-height: 40px; padding: 0 5px; position: relative; cursor: pointer;display: block; margin: 10px 0; box-shadow), li span
 
 Step 21-Add styling to ul li object and add transition = 0.2s linear to create ghosting effect when you click out of it
