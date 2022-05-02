@@ -36,6 +36,7 @@ form button {
     background: rgb(216, 43, 43);
     color: white;
     border-radius: 3%;
+    cursor: pointer;
 }
 
 /*Step 6-Copied over CSS portion in google font make up and set margin, padding and box-sizing
