@@ -47,6 +47,15 @@ ul {
 }
 ul li {
     width: 100%;
+    background: #fff;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 5px;
+    position: relative;
+    cursor: pointer;
+    display: block;
+    margin: 10px 0;
+    box-shadow: 2px 3px 4px rgb(216, 43, 43);
 }
 
 
