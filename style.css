@@ -24,7 +24,11 @@ form {
     box-shadow: 3px 6px 4px rgb(216, 43, 43);
 }
 form input {
-    width: 400px;;
+    width: 400px;
+    height: 35px;
+    border: none;
+    outline: none;
+    padding: 0 5px;
 }
 
 
@@ -34,7 +38,7 @@ Step 7-Set up min-height, background, display, flex directing and align items in
 
 Step 8-Styled h1 and gave it top margin and then took on the form and gave it margin top space, background color and box shadown!
 
-Step 9-Styled to form input, increased the width size, height, took off the border and that annoting outline and gave mild padding
+Step 9-Styled to form input, increased the width size, height, took off the border and that annoying outline (none) and gave mild padding
 
 Step 10-Styled form button and completely made it fit to the search bar, adjusted background color and color of plus symbol. Also gave it the awesome pointer when you hover over it
 
