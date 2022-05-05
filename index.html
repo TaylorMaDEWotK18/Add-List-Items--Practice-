@@ -24,9 +24,9 @@
         const inputText = document.querySelector('#txt');
         const myButton = document.querySelector('.btn-list');
         const list = document.querySelector('.container ul');
-        myButton.addEventListener('click', ()=>{
-            if() {
-
+        myButton.addEventListener('click', (e)=>{
+            if(inputText.value != "") {
+                e.preventDefault()
             }
         })
     </script>
@@ -49,7 +49,7 @@ Step 13-Looks like were building some JS in HTML. Built script tags with querySe
 
 Step 14-Create addEventListener for myButton, click and arrow function with if conditional
 
-Step 15-inputText.value and != "" in condition () and in code block made e.preventDefault(), const myLi with innerHTML = inputText.value, added list.appendChild(myLi)
+Step 15-inputText.value and != "" in condition (), put 'e' for event as argument in arrow function and in code block made e.preventDefault(), const myLi with innerHTML = inputText.value, added list.appendChild(myLi)
 
 Step 16-Create span element so the 'x' shows up in the added list item
 
