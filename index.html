@@ -30,6 +30,8 @@
                 const myLi = document.createElement('li');
                 myLi.innerHTML = inputText.value;
                 list.appendChild(myLi);
+                const mySpan = document.createElement('span');
+                mySpan.innerHTML = 'x';
             }
         })
     </script>
@@ -54,7 +56,7 @@ Step 14-Create addEventListener for myButton, click and arrow function with if c
 
 Step 15-inputText.value and != "" in condition (), put 'e' for event as argument in arrow function and in code block made e.preventDefault(), const myLi to create an li element (needs document.) with myLi.innerHTML = inputText.value, added list.appendChild(myLi)
 
-Step 16-Create span element so the 'x' shows up in the added list item
+Step 16-Create a mySpan variable and have it = doc.createElement to span. the 'x' shows up in the added list item
 
 Step 17-In order to clear out input bar after adding list item simply and inputText.value = "" outside of conditional
 
