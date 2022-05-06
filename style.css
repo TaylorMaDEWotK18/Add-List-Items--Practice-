@@ -62,6 +62,8 @@ ul li span {
     top: 0;
     right: 0;
     width: 50px;
+    text-align: center;
+    background: rgb(216, 43, 43);
 }
 
 
