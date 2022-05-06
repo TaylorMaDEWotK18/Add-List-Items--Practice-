@@ -57,6 +57,12 @@ ul li {
     margin: 10px 0;
     box-shadow: 2px 3px 4px rgb(216, 43, 43);
 }
+ul li span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+}
 
 
 /*Step 6-Copied over CSS portion in google font make up and set margin, padding and box-sizing
