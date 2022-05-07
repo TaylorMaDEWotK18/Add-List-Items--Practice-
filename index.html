@@ -33,8 +33,8 @@
                 mySpan.innerHTML = 'x';
                 myLi.appendChild(mySpan);
             }
-            const close = querySelectorAll('span');
-            for (let x = 0; x < 0; x++) {
+            const close = document.querySelectorAll('span');
+            for (let x = 0; x < close.length; x++) {
                 close[x].addEventListener('click', ()=>{
                     close[x].parentElement.style.opacity = 0;
                 })
