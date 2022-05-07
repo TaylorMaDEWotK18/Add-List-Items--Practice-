@@ -37,6 +37,10 @@
             for (let x = 0; x < close.length; x++) {
                 close[x].addEventListener('click', ()=>{
                     close[x].parentElement.style.opacity = 0;
+                    setTimeout(()=>{
+                        close[x].parentElement.style.display = 'none';
+                        close[i].parentElement.remove();
+                    }, 500);
                 })
             }   
             
@@ -75,6 +79,6 @@ Step 19-Create forLoop with < close.length and inside code block loop close[] wi
 
 Step 20-This is an awesome trick, instead of display 'none', we can comment it out and copy over the same code, except replace display with opacity and none with '0'
 
-Step 22-Created SetTimeout arrow function and inserted the 'display = none' part into function and comma 500 at the end to solve stacking issue when I would delete a list item
+Step 22-Created SetTimeout arrow function and inserted the 'display = none' part into function, below that put in close[i].parentElement.remove(); and comma 500 at the end to solve stacking issue when I would delete a list item
 
 Step 23-FINAL STEP! Coded close[i].parentElement.remove() so that everytime I deleted a list item it didn't leave code still lingering in the file visable through inspection. DONE! -->
