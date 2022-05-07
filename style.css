@@ -56,6 +56,7 @@ ul li {
     display: block;
     margin: 10px 0;
     box-shadow: 2px 3px 4px rgb(216, 43, 43);
+    transition: 0.2s linear;
 }
 ul li span {
     position: absolute;
@@ -79,4 +80,4 @@ Step 10-Styled form button and completely made it fit to the search bar, adjuste
 
 Step 12-Styled container class(margin-top), ul(list-style,width), ul li((width: 100%; background: #fff; height: 40px; line-height: 40px; padding: 0 5px; position: relative; cursor: pointer;display: block; margin: 10px 0; box-shadow), li span
 
-Step 21-Add styling to ul li object and add transition = 0.2s linear to create ghosting effect when you click out of it
+Step 21-Add styling to ul li rule and add transition = 0.2s linear to create ghosting effect when you click out of it
