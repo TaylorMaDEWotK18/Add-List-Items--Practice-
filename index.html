@@ -39,12 +39,10 @@
                     close[x].parentElement.style.opacity = 0;
                     setTimeout(()=>{
                         close[x].parentElement.style.display = 'none';
-                        close[i].parentElement.remove();
+                        close[x].parentElement.remove();
                     }, 500);
                 })
-            }   
-            
-            
+            }  
             inputText.value = '';
         })
     </script>
