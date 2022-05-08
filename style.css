@@ -48,7 +48,7 @@ ul {
 ul li {
     width: 100%;
     background: #fff;
-    height: 40px;
+    height: 100%;
     line-height: 40px;
     padding: 0 5px;
     position: relative;
@@ -57,14 +57,16 @@ ul li {
     margin: 10px 0;
     box-shadow: 2px 3px 4px rgb(216, 43, 43);
     transition: 0.2s linear;
+    border: 2mm ridge rgba(83, 86, 20, 0.6);
 }
 ul li span {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -1px;
+    bottom: -1px;
+    right: -1px;
     width: 50px;
     text-align: center;
-    background: rgb(216, 43, 43);
+    background: linear-gradient(rgb(238, 239, 243), rgb(216, 43, 43));
 }
 
 
