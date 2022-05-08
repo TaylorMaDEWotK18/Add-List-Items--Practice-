@@ -29,6 +29,8 @@ form input {
     border: none;
     outline: none;
     padding: 0 5px;
+    background: black;
+    color: white;
 }
 form button {
     height: 35px;
